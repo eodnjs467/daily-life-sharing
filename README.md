@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 오나(오늘의 나는..)
 
-## Getting Started
+<br />
 
-First, run the development server:
+1. [프로젝트 소개 🎉](#1-프로젝트-소개-)
+2. [화면 구성 📺](#2-화면-구성-)
+3. [API 🚀](#3-API-)
+4. [기술 스택 🛠](#4-기술-스택-)
+5. [구현 기능 📍](#5-구현-기능-)
+6. [프로젝트 구조 🗂](#6-프로젝트-구조-)
+7. [배포 ✨](#7-배포-)
+
+<br/>
+
+
+
+
+<br />
+
+## 1. 프로젝트 소개 🎉
+
+- 개요 : 오늘의 내가 겪은 일상을 공유하며, 미래의 나에게 값진 일기를 선물하자 
+- 주제 : 오나 (오늘의 나는) 를 통해 일상을 공유합니다.
+- 기간 : 2023.12.21 ~ 
+
+<br />
+
+## 2. 화면 구성 📺
+- 로그인 전
+    - [ ] 로그인
+    - [ ] 회원가입
+    - [ ] 초기 페이지
+- 로그인 후(서비스 이용화면)
+    - (navigation)
+      - [ ] 홈
+      - [ ] 탐색하기
+      - [ ] 알림
+      - [ ] 쪽지
+      - [ ] 프로필
+      - [ ] 글쓰기
+    - (main)
+      - [ ] 글쓰기
+      - [ ] 피드 (추천 | 팔로우)
+- 컨텐츠 상세페이지
+    - [ ] 피드 상세 페이지
+- 검색페이지
+    - [ ] 입력된 검색어 관련 컨텐츠 목록
+- 설정 페이지
+    - [ ] 회원정보 수정(비밀번호, 닉네임, 프로필)
+
+<br />
+
+## 3. API 🚀
+- 로그인
+    - 회원가입 POST
+    - 로그인 GET
+- 프로필
+    - 로그인 정보 GET
+    - 알림 GET
+- 상세 정보
+    - 피드 상세 정보 GET
+    - 피드 정보 GET
+- 검색
+    - 검색어 관련 GET
+   
+  
+<br />
+
+## 4. 기술 스택 🛠
+- React.js(v18)
+- Next.js (v14)
+- 
+
+<br />
+
+## 5. 구현 기능 📍
+ 
+
+<br />
+
+## 6. 프로젝트 구조 🗂
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+src
+├─ app 
+    ├── (afterLogin)
+    ⎪         ... 
+    ├── (beforeLogin)
+    ⎪         ...
+    ├── utils
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br/>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## 7. 배포 ✨
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br/>

@@ -6,7 +6,7 @@ export default function MainPage() {
   return (
     <>
       <div className={styles.left}>
-        <Image src={"/suya-logo.png"} alt={"로고"} width={400} height={400} />
+        <Image src={"/blue-moon.png"} alt={"로고"} width={500} height={500} />
       </div>
       <div className={styles.right}>
         <h1>오늘 당신에게 일어난 일</h1>

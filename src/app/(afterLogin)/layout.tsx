@@ -12,10 +12,10 @@ export default function Layout({ children }: { children: ReactNode }) {
             <Link className={style.logo} href={"/home"}>
               <div className={style.logoPill}>
                 <Image
-                  src={"/suya-logo.png"}
+                  src={"/blue-moon.png"}
                   alt={"로고"}
-                  width={40}
-                  height={40}
+                  width={50}
+                  height={50}
                 />
               </div>
             </Link>

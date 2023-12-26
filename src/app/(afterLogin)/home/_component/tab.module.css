@@ -1,0 +1,34 @@
+.homeFixed {
+  width: 100%;
+  position: fixed;
+  max-width: 598px;
+}
+.homeTabWrapper {
+
+  height: 53px;
+  display: flex;
+}
+.homeTab {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.homeTab:hover {
+  background-color: rgba(15, 20, 25, 0.1);
+}
+.tabTitle {
+  color: #536471;
+  font-size: 15px;
+}
+.tabIndicator {
+  width: 56px;
+  min-width: 56px;
+  height: 4px;
+  background-color: rgb(29, 155, 240);
+  position: absolute;
+  bottom: 0;
+  border-radius: 9999px;
+}

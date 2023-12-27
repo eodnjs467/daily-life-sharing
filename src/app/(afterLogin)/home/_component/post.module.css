@@ -1,0 +1,71 @@
+.container {
+  padding: 0 16px;
+}
+.container:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+.post {
+  display: flex;
+  padding-top: 12px;
+}
+
+.imageSection {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+.imageSection:hover {
+  background-color: rgba(26, 26, 26, 0.15);
+  border-radius: 50%;
+}
+.profile {
+  border-radius: 50%;
+}
+
+
+.postSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.userInfoSection {
+  display: flex;
+  margin-bottom: 2px;
+}
+.userInfo {
+  display: flex;
+  flex: 1;
+}
+.userInfo div:last-child {
+  margin-left: 4px;
+}
+.userInfo span{
+  display: inline-block;
+}
+.userInfo .nickname {
+  color: #0F1419;
+  font-weight: bold;
+}
+.nickname:hover, .time:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.userInfo .email, .userInfo .time {
+  color: #536471;
+}
+.division {
+  margin: 0 4px;
+}
+.funcSection {
+  margin-top: 12px;
+}
+.funcInner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 20px;
+}
+

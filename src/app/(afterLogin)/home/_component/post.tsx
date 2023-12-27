@@ -1,13 +1,30 @@
 import style from "./post.module.css";
 import Image from "next/image";
+
+import dayjs from "dayjs";
+import relativeTime from "dayjs/plugin/relativeTime";
+import "dayjs/locale/ko";
+
+dayjs.locale("ko");
+dayjs.extend(relativeTime);
 export default function Post() {
+  const target = {
+    User: {
+      id: "대원님",
+      nickname: "@BigOne",
+      image: "/blue-moon.png",
+    },
+    content: "안녕하세요. 더미 게시글 입니다.",
+    createAt: new Date(),
+    Images: [],
+  };
   return (
     <article className={style.container}>
       <div className={style.post}>
         <div className={style.imageSection}>
           <Image
             className={style.profile}
-            src={"/blue-moon.png"}
+            src={target.User.image}
             alt={"profile"}
             width={40}
             height={40}
@@ -17,17 +34,19 @@ export default function Post() {
           <div className={style.userInfoSection}>
             <div className={style.userInfo}>
               <div>
-                <span className={style.nickname}>대원님</span>
+                <span className={style.nickname}>{target.User.id}</span>
               </div>
               <div>
-                <span className={style.email}>@BigOne</span>
+                <span className={style.email}>{target.User.nickname}</span>
                 <span className={style.division}>·</span>
-                <span className={style.time}>20h</span>
+                <span className={style.time}>
+                  {dayjs(target.createAt).fromNow(true)}
+                </span>
               </div>
             </div>
             <div>...</div>
           </div>
-          <div className={style.postDescription}>게시글 입니다</div>
+          <div className={style.postDescription}>{target.content}</div>
           <div className={style.funcSection}>
             <div className={style.funcInner}>
               <div className={style.icon}>

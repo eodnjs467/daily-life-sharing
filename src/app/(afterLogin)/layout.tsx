@@ -3,7 +3,13 @@ import style from "./layout.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import NavMenu from "@/app/(afterLogin)/_component/nav-menu";
-export default function Layout({ children }: { children: ReactNode }) {
+export default function Layout({
+  children,
+  modal,
+}: {
+  children: ReactNode;
+  modal: ReactNode;
+}) {
   return (
     <div className={style.container}>
       <header className={style.leftSectionWrapper}>
@@ -23,7 +29,7 @@ export default function Layout({ children }: { children: ReactNode }) {
               <ul>
                 <NavMenu />
               </ul>
-              <Link className={style.postButton} href={"/compose/post"}>
+              <Link className={style.postButton} href={"/compose/write-post"}>
                 <span>게시하기</span>
                 <svg
                   viewBox="0 0 24 24"
@@ -54,6 +60,7 @@ export default function Layout({ children }: { children: ReactNode }) {
           </section>
         </div>
       </div>
+      {modal}
     </div>
   );
 }

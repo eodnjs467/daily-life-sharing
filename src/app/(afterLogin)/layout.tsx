@@ -3,6 +3,8 @@ import style from "./layout.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import NavMenu from "@/app/(afterLogin)/_component/nav-menu";
+import TrendSection from "@/app/(afterLogin)/_component/trend-section";
+import FollowRecommend from "@/app/(afterLogin)/_component/follow-recommend";
 export default function Layout({
   children,
   modal,
@@ -52,10 +54,12 @@ export default function Layout({
           <main className={style.main}>{children}</main>
           <section className={style.rightSection}>
             {/*<RightSearchZone />*/}
-            {/*<TrendSection />*/}
+            <TrendSection />
             <div className={style.followRecommend}>
               <h3>팔로우 추천</h3>
-              {/*<FollowRecommendSection />*/}
+              <FollowRecommend />
+              <FollowRecommend />
+              <FollowRecommend />
             </div>
           </section>
         </div>

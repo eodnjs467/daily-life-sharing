@@ -1,0 +1,71 @@
+.postForm {
+  padding-top: 60px;
+  border: 1px solid black;
+}
+
+.formWrapper {
+  padding: 0 16px;
+  display: flex;
+}
+
+.leftSection {
+  padding-top: 12px;
+  margin-right: 12px;
+}
+.profile {
+  border-radius: 50%;
+}
+.profile:hover{
+  background-color: rgba(26, 26, 26, 0.15);
+  cursor: pointer;
+}
+
+.rightSection {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.postSection {
+  padding: 12px 0;
+  height: 56px;
+}
+
+.funcSection {
+  display: flex;
+  padding-bottom: 8px;
+}
+
+.icons {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin: 0 4px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon:hover{
+  background-color: rgba(29,155,240,0.10);
+  cursor: pointer;
+}
+
+.postButton {
+  color: white;
+  height: 36px;
+  font-size: 15px;
+  background-color: rgb(29, 155, 240);
+  border-radius: 26px;
+  padding: 0 16px;
+  font-weight: bold;
+}
+.postButton:hover{
+  background-color: rgb(26, 140, 216);
+}
+/*margin8px*/

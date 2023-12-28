@@ -1,0 +1,51 @@
+.container {
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+}
+.container:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.userLogo {
+  border-radius: 50%;
+}
+.userLogoSection {
+  margin-right: 12px;
+}
+.userLogoSection:hover {
+  border-radius: 50%;
+  background-color: rgba(26, 26, 26, 0.15);
+}
+
+.userInfoSection {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.userInfo {}
+.title {
+  font-size: 15px;
+  color: #0F1419;
+  font-weight: bold;
+}
+
+.userId {
+  font-size: 15px;
+  color: #536471;
+  font-weight: 400;
+}
+
+.actionButton {
+  height: 30px;
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  padding: 0 16px;
+  border-radius: 24px;
+}
+.followButtonSection {
+  display: flex;
+  align-items: center;
+}

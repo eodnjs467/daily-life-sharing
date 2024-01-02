@@ -19,7 +19,10 @@ export default function TimeLineNav() {
         <Link className={style.navTitle} href={"/daewon/with_replies"}>
           답글
         </Link>
-        <div className={style.tabIndicator} hidden={segment !== "replies"} />
+        <div
+          className={style.tabIndicator}
+          hidden={segment !== "with_replies"}
+        />
       </div>
       <div className={style.navTab}>
         <Link className={style.navTitle} href={"/daewon/highlights"}>

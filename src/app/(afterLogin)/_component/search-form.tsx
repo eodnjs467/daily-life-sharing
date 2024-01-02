@@ -3,7 +3,7 @@ import cx from "classnames";
 
 import style from "./right-search-zone.module.css";
 import { useState } from "react";
-export default function SearchForm() {
+export default function SearchForm({ q }: { q: string }) {
   const [focus, setFocus] = useState(false);
   return (
     <form className={cx(style.search, focus && style.focus)}>

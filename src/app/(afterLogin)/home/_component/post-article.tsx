@@ -21,7 +21,7 @@ export default function PostArticle({
   const router = useRouter();
   const onClick = () => router.push(`/daewon/status/1`);
   return (
-    <article onClick={onClick} className={style.container}>
+    <article onClickCapture={onClick} className={style.container}>
       {children}
     </article>
   );

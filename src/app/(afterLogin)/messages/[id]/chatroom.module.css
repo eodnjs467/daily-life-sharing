@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+}
+.header h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.body {
+  padding-top: 20px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #536471;
+}
+.nickname {
+  font-weight: bold;
+  color: black;
+}
+.divider {
+  height: 1px;
+  background-color: rgba(239,243,244,1.00);
+}

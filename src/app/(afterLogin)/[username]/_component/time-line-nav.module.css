@@ -1,0 +1,37 @@
+.timeLineNav {
+  border-bottom: 1px solid rgba(239,243,244,1.00);
+  display: flex;
+}
+.navTab {
+  flex-grow: 1;
+  min-width: 56px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.navTitle {
+  font-size: 15px;
+  color:#536471;
+  width: 100%;
+  height: 100%;
+}
+.navTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navTitle:hover{
+  background-color: rgba(15, 20, 25, 0.1);
+  cursor: pointer;
+}
+.tabIndicator {
+  min-width: 56px;
+  height: 4px;
+  position: absolute;
+  background-color: rgb(29, 155, 240);
+  bottom: 0;
+  border-radius: 9999px;
+}

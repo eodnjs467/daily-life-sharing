@@ -1,0 +1,94 @@
+.container h1 {
+  display: none;
+}
+.header {
+  display: flex;
+}
+.header, .divider, .post{
+  padding: 0 16px;
+}
+.header div{
+  font-size: 20px;
+  font-weight: bold;
+}
+.divider {
+  padding-top: 12px;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.post {}
+.user{
+  display: flex;
+}
+.profile {
+  margin-right: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.nickname {
+  font-size: 15px;
+  font-weight: bold;
+}
+.nickname:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.email {
+  color: #536471;
+}
+
+.description {
+  margin-top: 12px;
+}
+
+.postInfo{
+  display: flex;
+  margin: 16px 0;
+}
+.postInfo div {
+  font-size: 15px;
+  color: #536471;
+}
+.postInfo span {
+  color: black;
+  font-weight: bold;
+}
+.createdAt:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+.actions div {
+  min-height: 20px;
+}
+.actions svg {
+  fill: rgb(83, 100, 113);
+}
+
+.commentSection {
+  display: flex;
+  flex-direction: column;
+  padding: 4px 0 12px 0;
+}
+.me {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+.commentBody{
+  flex: 1;
+  padding: 12px 0;
+}

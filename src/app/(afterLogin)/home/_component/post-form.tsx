@@ -102,7 +102,7 @@ export default function PostForm() {
                 <svg
                   fill="#1d9bf0"
                   height="20px"
-                  width="20x"
+                  width="20px"
                   version="1.1"
                   id="Layer_1"
                   xmlns="http://www.w3.org/2000/svg"
@@ -130,7 +130,7 @@ export default function PostForm() {
                 <svg
                   viewBox="0 0 64 64"
                   height="20px"
-                  width="20x"
+                  width="20px"
                   xmlns="http://www.w3.org/2000/svg"
                   strokeWidth="3"
                   stroke="#1d9bf0"

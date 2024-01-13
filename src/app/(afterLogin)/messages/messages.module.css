@@ -1,0 +1,37 @@
+.container {
+}
+
+.container h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+}
+.chat {
+  padding: 8px 16px;
+  display: flex;
+}
+.chat:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.profile {
+  margin-right: 12px;
+}
+.userInfo {
+  color: #536471;
+}
+.userInfo span:first-child {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 4px;
+}
+.userInfo span:last-child {
+  margin: 0 4px;
+}
+.lastMessage{
+  color: #536471;
+}

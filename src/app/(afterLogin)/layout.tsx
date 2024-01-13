@@ -5,6 +5,7 @@ import Image from "next/image";
 import NavMenu from "@/app/(afterLogin)/_component/nav-menu";
 import TrendSection from "@/app/(afterLogin)/_component/trend-section";
 import FollowRecommend from "@/app/(afterLogin)/_component/follow-recommend";
+import RightSearchZone from "@/app/(afterLogin)/_component/right-search-zone";
 export default function Layout({
   children,
   modal,
@@ -53,7 +54,7 @@ export default function Layout({
         <div className={style.rightSectionInner}>
           <main className={style.main}>{children}</main>
           <section className={style.rightSection}>
-            {/*<RightSearchZone />*/}
+            <RightSearchZone />
             <TrendSection />
             <div className={style.followRecommend}>
               <h3>팔로우 추천</h3>

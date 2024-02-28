@@ -2,6 +2,8 @@
   display: flex;
   width: 100dvw;
   height: 100dvh;
+  background: rgb(240, 237, 204);
+  color: rgb(2, 52, 63);
 }
 
 .left {
@@ -37,19 +39,19 @@
 
 .signup {
   width: 300px;
-  background-color: rgb(29, 155, 240);
+  background-color: rgb(2, 52, 63);
   height: 40px;
   border-radius: 20px;
   padding: 0 16px;
   font-size: 15px;
-  color: white;
+  color: rgb(240, 237, 204);
   font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .signup:hover {
-  background-color: rgb(26, 140, 216);
+  background-color: rgba(2, 52, 63, 0.7);
 }
 
 .login {
@@ -59,12 +61,18 @@
   border-radius: 20px;
   font-weight: bold;
   font-size: 15px;
-  color: rgb(29, 155, 240);
+  color: rgb(2, 52, 63);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .login:hover {
-  background-color: rgb(207, 217, 222);
+  background-color: rgba(2, 52, 63, 0.7);
 }
 
+/*
+ 진한 배경 hover 시: rgb(2, 52, 63);
+ 폰트색: rgb(240, 237, 204);
+ 옅은색 hover 시 rgb(207, 217, 222)
+
+ */

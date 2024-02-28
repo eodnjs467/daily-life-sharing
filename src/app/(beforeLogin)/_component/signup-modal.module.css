@@ -13,7 +13,8 @@
 }
 
 .modal {
-  background: #ffffff;
+  background: rgb(240, 237, 204);
+  color: rgb(2, 52, 63);
   position: relative;
   max-width: 80vw;
   min-width: 600px;
@@ -79,8 +80,8 @@
   width: 100%;
   height: 50px;
   border-radius: 25px;
-  background-color: rgb(15, 20, 25);
-  color: white;
+  background-color: rgb(2, 52, 63);
+  color: rgb(240, 237, 204);
   font-size: 17px;
 }
 
@@ -92,7 +93,7 @@
   background-color: rgb(15, 20, 25);
 }
 .actionButton:hover {
-  background-color: rgb(39, 44, 48);
+  background-color: rgba(2, 52, 63, 0.7);
 }
 
 .closeButton {
@@ -100,11 +101,14 @@
   height: 34px;
   border-radius: 17px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: rgb(2, 52, 63);
   position: absolute;
   top: 16px;
   left: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.closeButton svg {
+  fill: rgb(240, 237, 204);
 }
